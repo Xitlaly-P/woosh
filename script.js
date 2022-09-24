@@ -1,4 +1,6 @@
 var countDownDate = new Date("Sep 30, 2022 12:30:00").getTime();
+var audio = new Audio('boomnoise.mp3');
+
 var myfunc = setInterval(function() {
 
   var now = new Date().getTime();
@@ -25,6 +27,7 @@ function yup() {
   alert("Anyways im really bored")
   alert("So I made this")
   alert("Miss you <3")
+  audio.play();
   alert("BOOM!!!!")
   document.getElementById("tough").src = "boom.png";
   document.getElementById("words").innerHTML = ""
