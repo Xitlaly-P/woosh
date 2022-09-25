@@ -29,9 +29,10 @@ function yup() {
   alert("Miss you <3")
   audio.play();
   alert("BOOM!!!!")
-  document.getElementById("tough").src = "boom.png";
-  document.getElementById("words").innerHTML = ""
-  document.getElementById("words2").innerHTML = ""
-  document.getElementById("countdown").style.display = "none"
-  document.getElementById("notwords").style.display = "none"
+  document.getElementById("boom").style.display = "inline";
+  document.getElementById("words").innerHTML = "";
+  document.getElementById("words2").innerHTML = "";
+  document.getElementById("countdown").style.display = "none";
+  document.getElementById("notwords").style.display = "none";
+  document.getElementById("flipcardd").style.display = "none";
 }
