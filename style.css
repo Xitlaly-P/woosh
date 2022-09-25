@@ -60,4 +60,6 @@ html, body {
     padding: 5vh;
     max-height: 80vh;
   }
-  
+  .usfr:hover{
+    transform:scaleY(-1)
+  }
