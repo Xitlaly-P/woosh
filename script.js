@@ -15,7 +15,7 @@ var myfunc = setInterval(function() {
 
   if (timeleft < 0) {
     clearInterval(myfunc);
-    document.getElementById("days").innerHTML = "TIME UP!!";
+    document.getElementById("countdown").innerHTML = "THIS US RN!!";
   }
 }, 1000)
 
