@@ -1,4 +1,4 @@
-var countDownDate = new Date("Sep 30, 2022 12:30:00").getTime();
+var countDownDate = new Date("Oct 14, 2022 19:30:00").getTime();
 var audio = new Audio('boomnoise.mp3');
 
 var myfunc = setInterval(function() {
